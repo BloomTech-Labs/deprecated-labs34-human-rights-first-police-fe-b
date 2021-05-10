@@ -182,7 +182,7 @@ div canvas {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .link-container .graph-buttons .link-item .icon {
@@ -469,7 +469,7 @@ h3.incident-container {
   top: 28px;
   right: 24px;
   z-index: 1;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .map-menu {
@@ -481,7 +481,7 @@ h3.incident-container {
 }
 
 .map-incident-card {
-  cursor: pointer !important;
+  /* cursor: pointer !important; */
 }
 
 button.ant-btn.ant-btn-primary.ant-input-search-button {
@@ -688,7 +688,7 @@ div.timeline-container {
   background-color: white;
   text-decoration: underline;
   font-size: 1.1rem;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .dashboard-buttons-container button:focus {
@@ -881,7 +881,7 @@ p.page-number-display {
   padding-top: 1%;
   text-decoration: underline;
   text-decoration-color: #1890ff;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .incident-info-text-wrap {
@@ -925,7 +925,7 @@ p.page-number-display {
 }
 
 .more-info {
-  cursor: pointer;
+  /* cursor: pointer; */
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
