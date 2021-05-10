@@ -17,6 +17,11 @@ const NavBar = () => {
     setNavState(!navState);
   };
 
+  const logout = () => {
+    localStorage.removeItem('okta-token-storage', 'okta-cache-storage');
+    window.location.reload();
+  };
+
   return (
     <nav className="NavbarItems">
       <img className="hrf-logo" alt="hrf-logo" src={logo}></img>
@@ -37,15 +42,25 @@ const NavBar = () => {
           About
         </NavLink>
         {localStorage.getItem('okta-token-storage') ? (
-          <NavLink
-            onClick={handleClick}
-            className="nav-link"
-            to="/admin-dashboard"
-          >
-            Admin
-          </NavLink>
+          <>
+            <NavLink onClick={logout} className="nav-link" exact to="/">
+              Logout
+            </NavLink>
+            <NavLink
+              onClick={handleClick}
+              className="nav-link"
+              to="/admin-dashboard"
+            >
+              Admin
+            </NavLink>
+          </>
         ) : (
-          <div></div>
+          <>
+            <NavLink onClick={handleClick} className="nav-link" exact to="/login">
+              Login
+            </NavLink>
+            <div></div>
+          </>
         )}
         <img className="lambda-logo" src={lambdaLogo} alt="lambda-logo" />
       </ul>

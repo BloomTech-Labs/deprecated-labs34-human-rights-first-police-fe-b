@@ -1312,7 +1312,8 @@ root:hover {
   }
 
   .mapDiv {
-    width: 100%;
+    width: 90%;
+    margin: 2rem;
   }
   .ant-collapse-content-box {
     background-color: white;
@@ -1332,6 +1333,13 @@ root:hover {
     font-weight: 500;
   }
 
+  div.ant-collapse-icon-position-right
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-arrow {
+    padding: 4px;
+  }
+
   .search-header {
     width: 350px;
     display: -webkit-box;
@@ -1345,8 +1353,9 @@ root:hover {
   }
   .map-menu-background {
     position: absolute;
-    top: 48%;
-    right: 0px;
+    top: 25%;
+    left: 8%;
+    /* right: 0px; */
   }
   .ant-carousel {
     display: none;
