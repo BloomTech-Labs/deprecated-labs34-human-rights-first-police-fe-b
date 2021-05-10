@@ -21,7 +21,7 @@ const {
 
 const NavControlContainer = styled.div`
   position: absolute;
-  top: 82px;
+  top: 97px;
   left: 26px;
   z-index: 1;
   @media (max-width: 375px) {
