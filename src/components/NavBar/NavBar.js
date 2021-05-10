@@ -42,24 +42,25 @@ const NavBar = () => {
           About
         </NavLink>
         {localStorage.getItem('okta-token-storage') ? (
-          <NavLink onClick={logout} className="nav-link" exact to="/">
-            Logout
-          </NavLink>
+          <>
+            <NavLink onClick={logout} className="nav-link" exact to="/">
+              Logout
+            </NavLink>
+            <NavLink
+              onClick={handleClick}
+              className="nav-link"
+              to="/admin-dashboard"
+            >
+              Admin
+            </NavLink>
+          </>
         ) : (
-          <NavLink onClick={handleClick} className="nav-link" exact to="/login">
-            Login
-          </NavLink>
-        )}
-        {localStorage.getItem('okta-token-storage') ? (
-          <NavLink
-            onClick={handleClick}
-            className="nav-link"
-            to="/admin-dashboard"
-          >
-            Admin
-          </NavLink>
-        ) : (
-          <div></div>
+          <>
+            <NavLink onClick={handleClick} className="nav-link" exact to="/login">
+              Login
+            </NavLink>
+            <div></div>
+          </>
         )}
         <img className="lambda-logo" src={lambdaLogo} alt="lambda-logo" />
       </ul>
