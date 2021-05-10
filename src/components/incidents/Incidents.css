@@ -140,7 +140,13 @@
 
 @media screen and (max-width: 640px) {
   .card-box {
-    width: 75%;
+    width: 80%;
+    margin: 1.5rem auto;
+    max-width: 500px;
+  }
+
+  .ant-card-body {
+    padding: 15px;
   }
 }
 
