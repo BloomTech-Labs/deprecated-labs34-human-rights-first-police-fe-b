@@ -12,6 +12,7 @@ const ClusterMarker = styled.div`
   height: ${props => `${props.size}px`};
   color: white;
   background: #e63946;
+  cursor: pointer;
   border-radius: 50%;
   padding: 10px;
   display: flex;
