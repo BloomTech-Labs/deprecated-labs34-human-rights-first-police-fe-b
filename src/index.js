@@ -6,7 +6,6 @@ import store from './store';
 
 import './index.css';
 import 'antd/dist/antd.less';
-
 import OktaWrapper from './components/OktaWrapper';
 import App from './App';
 
