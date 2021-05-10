@@ -12,9 +12,6 @@ const IncidentsCard = props => {
   return (
     <li className="card-box">
       <Card bordered={false}>
-        <h3 className="incident-title">
-          {shortenWord(props.incident.title, 70)}
-        </h3>
         <div className="card-metadata">
           <p>
             {DateTime.fromISO(props.incident.date)
@@ -23,6 +20,9 @@ const IncidentsCard = props => {
           </p>
           <p>{cityState}</p>
         </div>
+        <h3 className="incident-title">
+          {shortenWord(props.incident.title, 70)}
+        </h3>
         <h4 className="card-force">{props.incident.force_rank}</h4>
         <div className="tag-container">
           {props.incident.categories.map(cat => {

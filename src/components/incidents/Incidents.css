@@ -100,15 +100,10 @@
 }
 
 .card-box h3 {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 .card-box .card-metadata {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.5rem 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
