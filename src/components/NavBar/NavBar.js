@@ -11,10 +11,16 @@ import { Layout, Menu, Sider } from 'antd';
 import './nav.css';
 
 const NavBar = () => {
+  let isLoggedIn = true;
   const [navState, setNavState] = useState(false);
 
   let handleClick = () => {
     setNavState(!navState);
+  };
+
+  const logout = () => {
+    localStorage.removeItem('okta-token-storage', 'okta-cache-storage');
+    window.location.reload();
   };
 
   return (
@@ -35,6 +41,9 @@ const NavBar = () => {
         </NavLink>
         <NavLink onClick={handleClick} className="nav-link" to="/about">
           About
+        </NavLink>
+        <NavLink onClick={logout} className="nav-link" exact to="/">
+          {isLoggedIn ? 'Logout' : 'Login'}
         </NavLink>
         {localStorage.getItem('okta-token-storage') ? (
           <NavLink
