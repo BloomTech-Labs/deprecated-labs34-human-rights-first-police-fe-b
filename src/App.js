@@ -24,27 +24,31 @@ export default function App() {
   console.log(process.env.REACT_APP_OKTA_ISSUER_URI);
 
   return (
-    <div>
-      <NavBar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/graph">
-          <GraphContainer />
-        </Route>
-        <Route path="/incidents">
-          <Incidents />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/login" component={LoginContainer} />
-        {/* Bandaid fix to prevent production from crashing due to unspecified Okta environment variables */}
-        <OktaRoute path="/admin-dashboard" component={Dashboard} />
-        <Route path="/implicit/callback" component={LoginCallback} />
-      </Switch>
+    <>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/graph">
+            <GraphContainer />
+          </Route>
+          <Route path="/incidents">
+            <Incidents />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/login" component={LoginContainer} />
+          {/* Bandaid fix to prevent production from crashing due to unspecified Okta environment variables */}
+          <OktaRoute path="/admin-dashboard" component={Dashboard} />
+          <Route path="/implicit/callback" component={LoginCallback} />
+        </Switch>
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
