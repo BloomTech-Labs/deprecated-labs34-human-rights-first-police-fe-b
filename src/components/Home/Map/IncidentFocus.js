@@ -36,9 +36,10 @@ export default function IncidentFocus({ zoomOnCluster }) {
         >
           <Panel
             className="collapseText"
-            // header="Select to view Incidents"
             header={
-              activeList.length < 1
+              defaultList.length < 1
+                ? 'Search for Results'
+                : activeList.length === 1
                 ? 'Search for Results'
                 : `Select to view ${activeList.length}+ Incidents`
             }
