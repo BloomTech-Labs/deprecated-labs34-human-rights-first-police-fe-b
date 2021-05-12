@@ -469,7 +469,6 @@ h3.incident-container {
   top: 28px;
   right: 24px;
   z-index: 1;
-  cursor: pointer;
 }
 
 .map-menu {
@@ -478,10 +477,6 @@ h3.incident-container {
   width: 350px;
   height: 35px;
   border: 1px solid lightgrey;
-}
-
-.map-incident-card {
-  cursor: pointer !important;
 }
 
 button.ant-btn.ant-btn-primary.ant-input-search-button {
