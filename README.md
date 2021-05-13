@@ -9,6 +9,15 @@ Our team is developing an interactive map that identifies potential instances of
 > Human Rights First is a non-profit, nonpartisan international human rights organization based in New York, Washington D.C., Houston, and Los Angeles.
 
 ## Contributors
+Labs 34
+-------
+
+| [Harry Mardirossian](https://github.com/HDM007) (Tech Lead)| [Solomon Zelenko](https://github.com/zempo) (Design Lead)  |   [Caroline Lucas ](https://github.com/carolinefallonlucas) (MobileUI)    |[Erick Gonzalez](https://github.com/eg180)|[]()|
+|---|---|---|---|---|
+| <kbd> <img src="https://avatars.githubusercontent.com/u/40373828?v=4" width = "100" /></kbd>  | <kbd>  <img src="https://avatars.githubusercontent.com/u/39205476?v=4" width = "100" /></kbd>  |   |
+|  ![GitHub followers](https://img.shields.io/github/followers/HDM007?style=social) |  ![GitHub followers](https://img.shields.io/github/followers/zempo?style=social) |   |![GitHub followers](https://img.shields.io/github/followers/eg180?style=social)|
+|   |   |   |
+|   |   |   |
 
 ### Labs 33
 [Lindsay Deaton](https://github.com/lindsay-deaton)
@@ -72,14 +81,9 @@ REACT_APP_BACKENDURL="http://localhost:8000"
 REACT_APP_MAPBOX_TOKEN=""
 ```
 
-### Notable Libraries Used
-
-- React
-- Redux, React-Redux, [Redux Toolkit](https://redux-toolkit.js.org/)
-- [React-Map-GL](https://visgl.github.io/react-map-gl/), [Supercluster](https://github.com/mapbox/supercluster)
-- ChartJS
-- Axios
-- AntDesign, Styled Components
+## Notable Libraries Used
+![React](https://img.shields.io/badge/-React.js-000000?style=flat&logo=react) ![Redux](https://img.shields.io/badge/Redux-darkblue?style=flat&logo=redux) ![React_Map_GL](https://img.shields.io/badge/-React_Map_GL-blueviolet)  ![React](https://img.shields.io/badge/-Supercluster -orange)
+![React](https://img.shields.io/badge/-Ant Design-008DFA) ![React](https://img.shields.io/badge/-Axios-darkgreen) ![React](https://img.shields.io/badge/-Chart JS -darkred)  ![React](https://img.shields.io/badge/-Otka Authentication-silver) 
 
 ### User Flows
 
