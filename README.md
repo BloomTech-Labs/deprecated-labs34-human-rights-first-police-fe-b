@@ -7,35 +7,33 @@ Our team is developing an interactive map that identifies potential instances of
 > Human Rights First is an independent advocacy and action organization that challenges America to live up to its ideals. We believe American leadership is essential in the global struggle for human rights, so we press the U.S. government and private companies to respect human rights and the rule of law. When they fail, we step in to demand reform, accountability and justice. Around the world, we work where we can best harness American influence to secure core freedoms.
 > We know it is not enough to expose and protest injustice, so we create the political environment and policy solutions necessary to ensure consistent respect for human rights. Whether we are protecting refugees, combating torture, or defending persecuted minorities, we focus not on making a point, but on making a difference. For almost 40 years, we've built bipartisan coalitions and teamed up with frontline activists and lawyers to tackle global challenges that demand American leadership.
 > Human Rights First is a non-profit, nonpartisan international human rights organization based in New York, Washington D.C., Houston, and Los Angeles.
------
-## Contributors 
-### `Labs 34` 
 
-| [Joseph Costa](https://github.com/jcost875) 	| [Kenan Dolic](https://github.com/kdolic) 	| [Erick Gonzalez](https://github.com/eg180) 	| [Harry Mardirossian](https://GitHub.com/hdm007) 	| [Solomon Zelenko](https://github.com/zempo) 	| [Tatiana Efimo](https://github.com/tatkaef) 	| [Mudesir Suleyman](https://github.com/mudesir) 	| [Josiah McKinney](https://github.com/joeyMckinney) 	| [Caroline Lucas](https://github.com/carolinefallonlucas) 	|
-|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
-| <img src="https://avatars.githubusercontent.com/u/73002178?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/36944457?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/11304801?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/40373828?v=4" height="70"/> 	| <img src="https://avatars.githubusercontent.com/u/39205476?v=4" width = "200" /> 	| <img src="https://avatars.githubusercontent.com/u/62978626?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/24998352?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/14951470?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/47719592?v=4" width="200"/> 	|
-| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/jcost875) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/kdolic) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/eg180) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/hdm007) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/tatkaef) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/mudesir) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/joeyMckinney) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/carolinefallonlucas) 	|
-|
+---
 
+## Contributors
 
+### `Labs 34`
 
+|                      [Joseph Costa](https://github.com/jcost875)                       |                       [Kenan Dolic](https://github.com/kdolic)                       |                     [Erick Gonzalez](https://github.com/eg180)                      |                   [Harry Mardirossian](https://GitHub.com/hdm007)                    |                     [Solomon Zelenko](https://github.com/zempo)                     |                      [Tatiana Efimo](https://github.com/tatkaef)                      |                    [Mudesir Suleyman](https://github.com/mudesir)                     |                     [Josiah McKinney](https://github.com/joeyMckinney)                     |                     [Caroline Lucas](https://github.com/carolinefallonlucas)                      |
+| :------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+|    <img src="https://avatars.githubusercontent.com/u/73002178?v=4" width = "200"/>     |   <img src="https://avatars.githubusercontent.com/u/36944457?v=4" width = "200"/>    |    <img src="https://avatars.githubusercontent.com/u/11304801?v=4" width="200"/>    |    <img src="https://avatars.githubusercontent.com/u/40373828?v=4" height="70"/>     |  <img src="https://avatars.githubusercontent.com/u/39205476?v=4" width = "200" />   |     <img src="https://avatars.githubusercontent.com/u/62978626?v=4" width="200"/>     |    <img src="https://avatars.githubusercontent.com/u/24998352?v=4" width = "200"/>    |       <img src="https://avatars.githubusercontent.com/u/14951470?v=4" width="200"/>        |           <img src="https://avatars.githubusercontent.com/u/47719592?v=4" width="200"/>           |
+| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/jcost875) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/kdolic) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/eg180) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/hdm007) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/tatkaef) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/mudesir) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/joeyMckinney) | [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/carolinefallonlucas) |
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Ant Design](https://img.shields.io/badge/design%20system-ant--design-yellowgreen)](https://ant.design/docs/react/introduce)
 [![ESLint](https://img.shields.io/badge/linter-eslint-orange)](https://eslint.org/)
 
-
-
 ### Labs 33
+
 [Lindsay Deaton](https://github.com/lindsay-deaton)
 
 [Will Mondal](https://github.com/willmond-al)
 
 [Paul Kim](https://github.com/lbu0413)
 
-
 ### labs 32
+
 [Samuel Lee](https://github.com/AgentSamSA)
 
 [Michael Maton](https://github.com/michael-maton)
@@ -90,8 +88,9 @@ REACT_APP_MAPBOX_TOKEN=""
 ```
 
 ## Notable Libraries Used
-![React](https://img.shields.io/badge/-React.js-000000?style=flat&logo=react) ![Redux](https://img.shields.io/badge/Redux-darkblue?style=flat&logo=redux) ![React_Map_GL](https://img.shields.io/badge/-React_Map_GL-blueviolet)  ![React](https://img.shields.io/badge/-Supercluster -orange)
-![React](https://img.shields.io/badge/-Ant Design-008DFA) ![React](https://img.shields.io/badge/-Axios-darkgreen) ![React](https://img.shields.io/badge/-Chart JS -darkred)  ![React](https://img.shields.io/badge/-Otka Authentication-silver) 
+
+![React](https://img.shields.io/badge/-React.js-000000?style=flat&logo=react) ![Redux](https://img.shields.io/badge/Redux-darkblue?style=flat&logo=redux) ![React_Map_GL](https://img.shields.io/badge/-React_Map_GL-blueviolet) ![Supercluster](https://img.shields.io/badge/-SuperCluster-orange)
+![Ant Design](https://img.shields.io/badge/-Ant_Design-008DFA) ![Axios](https://img.shields.io/badge/-Axios-darkgreen) ![React](https://img.shields.io/badge/Chart_JS-darkred) ![React](https://img.shields.io/badge/-Otka_Authentication-silver)
 
 ### User Flows
 
@@ -120,7 +119,7 @@ Where to find important files in this project:
 
   - `📂 AdminDashboard`
 
-      - `📂 AntTable`
+    - `📂 AntTable`
 
   - `📂 Footer`
 
@@ -162,7 +161,7 @@ Where to find important files in this project:
 
 - `📂 assets`
 
-    - `📂 LambdaAssets` <- Lambda Logos
+  - `📂 LambdaAssets` <- Lambda Logos
 
 - `📂 styles`
 
