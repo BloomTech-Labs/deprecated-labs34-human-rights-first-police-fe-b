@@ -37,11 +37,11 @@ export default function IncidentFocus({ zoomOnCluster }) {
           <Panel
             className="collapseText"
             header={
-              clusterList.length === 0
+              queryList.length === 0
                 ? `Search for Results`
-                : activeList.length >= 1
+                : queryList.length >= 1 && clusterList.length >= 1
                 ? `Select to view ${activeList.length}+ Incidents`
-                : 'Search for Results'
+                : `Select to view ${activeList.length}+ Incidents`
             }
             bordered={false}
             style={{ color: 'white' }}
