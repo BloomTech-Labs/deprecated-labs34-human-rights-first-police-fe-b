@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 80%) {
   .mapDiv {
     width: 100%;
   }
