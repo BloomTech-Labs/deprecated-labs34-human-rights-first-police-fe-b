@@ -7,17 +7,25 @@ Our team is developing an interactive map that identifies potential instances of
 > Human Rights First is an independent advocacy and action organization that challenges America to live up to its ideals. We believe American leadership is essential in the global struggle for human rights, so we press the U.S. government and private companies to respect human rights and the rule of law. When they fail, we step in to demand reform, accountability and justice. Around the world, we work where we can best harness American influence to secure core freedoms.
 > We know it is not enough to expose and protest injustice, so we create the political environment and policy solutions necessary to ensure consistent respect for human rights. Whether we are protecting refugees, combating torture, or defending persecuted minorities, we focus not on making a point, but on making a difference. For almost 40 years, we've built bipartisan coalitions and teamed up with frontline activists and lawyers to tackle global challenges that demand American leadership.
 > Human Rights First is a non-profit, nonpartisan international human rights organization based in New York, Washington D.C., Houston, and Los Angeles.
+-----
+## Contributors 
+### Labs 34 
 
-## Contributors
-Labs 34
--------
+| [Joseph Costa](https://github.com/jcost875) 	| [Kenan Dolic](https://github.com/kdolic) 	| [Erick Gonzalez](https://github.com/eg180) 	| [Harry Mardirossian](https://GitHub.com/hdm007) 	| [Solomon Zelenko](https://github.com/zempo) 	| [Tatiana Efimo](https://github.com/tatkaef) 	| [Mudesir Suleyman](https://github.com/mudesir) 	| [Josiah McKinney](https://github.com/joeyMckinney) 	| [Caroline Lucas](https://github.com/carolinefallonlucas) 	|
+|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
+| <img src="https://avatars.githubusercontent.com/u/73002178?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/36944457?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/11304801?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/40373828?v=4" height="80"/> 	| <img src="https://avatars.githubusercontent.com/u/39205476?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/62978626?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/24998352?v=4" width = "200"/> 	| <img src="https://avatars.githubusercontent.com/u/14951470?v=4" width="200"/> 	| <img src="https://avatars.githubusercontent.com/u/47719592?v=4" width="200"/> 	|
+| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/jcost875) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/kdolic) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/hdm007) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	| [<img src="https://github.com/favicon.ico" width="30"/> ](https://github.com/zempo) 	|
+|
 
-| [Harry Mardirossian](https://github.com/HDM007) (Tech Lead)| [Solomon Zelenko](https://github.com/zempo) (Design Lead)  |   [Caroline Lucas ](https://github.com/carolinefallonlucas) (MobileUI)    |[Erick Gonzalez](https://github.com/eg180)|[]()|
-|---|---|---|---|---|
-| <kbd> <img src="https://avatars.githubusercontent.com/u/40373828?v=4" width = "100" /></kbd>  | <kbd>  <img src="https://avatars.githubusercontent.com/u/39205476?v=4" width = "100" /></kbd>  |   |
-|  ![GitHub followers](https://img.shields.io/github/followers/HDM007?style=social) |  ![GitHub followers](https://img.shields.io/github/followers/zempo?style=social) |   |![GitHub followers](https://img.shields.io/github/followers/eg180?style=social)|
-|   |   |   |
-|   |   |   |
+
+
+
+![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Ant Design](https://img.shields.io/badge/design%20system-ant--design-yellowgreen)](https://ant.design/docs/react/introduce)
+[![ESLint](https://img.shields.io/badge/linter-eslint-orange)](https://eslint.org/)
+
+
 
 ### Labs 33
 [Lindsay Deaton](https://github.com/lindsay-deaton)
