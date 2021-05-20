@@ -41,6 +41,10 @@
   justify-content: space-between;
 }
 
+.bottom-section .ant-carousel {
+  padding: 3rem 0;
+}
+
 .ant-carousel .slick-dots {
   margin: 0px;
 }

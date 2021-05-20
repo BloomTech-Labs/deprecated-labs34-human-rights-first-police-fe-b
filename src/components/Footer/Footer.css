@@ -14,8 +14,8 @@ root:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .footer-container a {
@@ -26,6 +26,7 @@ root:hover {
   width: 100%;
   background-color: var(--blue);
   margin-top: 4vh;
+  padding: 1.5rem 0;
 }
 
 .footer-container .admin-dash-container {

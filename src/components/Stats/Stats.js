@@ -8,6 +8,10 @@ const Stats = () => {
   const [arrests, setArrests] = useState(0);
   const [numCities, setNumCities] = useState(0);
 
+  const carouselStyle = {
+    padding: '1.5rem 0 3rem',
+  };
+
   const contentStyle = {
     height: '10vh',
     color: '#fff',
@@ -44,7 +48,7 @@ const Stats = () => {
   }, [dataList]);
 
   return (
-    <Carousel autoplay>
+    <Carousel autoplay style={carouselStyle}>
       <div className="stat incidents">
         <h2 style={contentStyle}>
           We have identified {dataList.length} incidents of police use of force
