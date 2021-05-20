@@ -15,6 +15,7 @@ const Footer = () => {
                   <a
                     href="https://www.humanrightsfirst.org"
                     target="_blank"
+                    rel="noreferrer"
                     exact
                     className="nav-link"
                     activeClassName="active-nav-link"

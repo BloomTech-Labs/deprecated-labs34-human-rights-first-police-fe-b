@@ -570,7 +570,7 @@ div.ant-collapse > .ant-collapse-item > .ant-collapse-header {
 
 .ant-carousel .slick-dots {
   margin: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 1.5rem;
 }
 .ant-carousel .slick-slider .slick-dots li button {
   height: 0.8rem;
@@ -1197,7 +1197,7 @@ root:hover {
   width: 100%;
   background-color: var(--blue);
   margin-top: 1rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .footer-container .admin-dash-container {
@@ -1209,7 +1209,7 @@ root:hover {
   color: white;
   background-color: var(--blue);
   text-align: center;
-  margin-bottom: 0;
+  margin: 1rem auto 0;
 }
 
 .footer-container .override {
