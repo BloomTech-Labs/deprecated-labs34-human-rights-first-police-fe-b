@@ -2,6 +2,32 @@
 
 const labsCohorts = [
   {
+    number: 34,
+    students: [
+      {
+        name: 'Harry Mardirossian',
+        githubUser: 'hdm007',
+        roles: ['tpl', 'fe'],
+      },
+      {
+        name: 'Solomon Zelenko',
+        githubUser: 'zempo',
+        roles: ['dl', 'fe'],
+      },
+      {
+        name: 'Caroline Lucas',
+        githubUser: 'carolinefallonlucas',
+        roles: ['fe'],
+      },
+      { name: 'Erick Gonzalez', githubUser: 'eg180', roles: ['fe', 'be'] },
+      { name: 'Kenan Dolic', githubUser: 'kdolic', roles: ['fe', 'be'] },
+      { name: 'Tatiana Efimova', githubUser: 'tatkaef', roles: ['fe'] },
+      { name: 'Joseph Costa', githubUser: 'jcost875', roles: ['ds'] },
+      { name: 'Josiah McKinney', githubUser: 'joeyMckinney', roles: ['ds'] },
+      { name: 'Mudesir Suleyman', githubUser: 'mudesir', roles: ['ds'] },
+    ],
+  },
+  {
     number: 33,
     students: [
       { name: 'Will Mondal', githubUser: 'willmond-al', roles: ['fe'] },

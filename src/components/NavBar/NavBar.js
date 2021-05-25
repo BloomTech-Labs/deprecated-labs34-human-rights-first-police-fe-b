@@ -54,14 +54,7 @@ const NavBar = () => {
               Admin
             </NavLink>
           </>
-        ) : (
-          <>
-            <NavLink onClick={handleClick} className="nav-link" exact to="/login">
-              Login
-            </NavLink>
-            <div></div>
-          </>
-        )}
+        ) : null}
         <img className="lambda-logo" src={lambdaLogo} alt="lambda-logo" />
       </ul>
     </nav>
