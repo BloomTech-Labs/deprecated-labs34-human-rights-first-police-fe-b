@@ -4,6 +4,11 @@ import { Link, NavLink } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 
 const Footer = () => {
+  const logout = () => {
+    localStorage.removeItem('okta-token-storage', 'okta-cache-storage');
+    window.location.reload();
+  };
+
   return (
     <div className="footer-container">
       <div className="nav-footer">
@@ -25,12 +30,27 @@ const Footer = () => {
                 </Menu.Item>
 
                 <Menu.Item key="2">
-                  <NavLink
-                    to="/admin-dashboard"
-                    activeClassName="active-nav-link"
-                  >
-                    Administration
-                  </NavLink>
+                  {localStorage.getItem('okta-token-storage') ? (
+                    <>
+                      <NavLink
+                        onClick={logout}
+                        className="nav-link"
+                        exact
+                        to="/"
+                      >
+                        Logout
+                      </NavLink>
+                    </>
+                  ) : (
+                    <>
+                      <NavLink
+                        to="/admin-dashboard"
+                        activeClassName="active-nav-link"
+                      >
+                        Administration
+                      </NavLink>
+                    </>
+                  )}
                 </Menu.Item>
               </Menu>
 
