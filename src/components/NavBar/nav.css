@@ -23,7 +23,7 @@ root:hover {
   /* list-style: none; */
   text-align: center;
   width: 70vw;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0;
   margin: 0;

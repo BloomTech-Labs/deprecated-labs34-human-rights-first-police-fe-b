@@ -11,14 +11,15 @@ const ClusterMarker = styled.div`
   width: ${props => `${props.size}px`};
   height: ${props => `${props.size}px`};
   color: white;
-  background: #e63946;
+  background: #bc541e;
   cursor: pointer;
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 55%;
+  opacity: 70%;
+  font-weight: 600;
 `;
 
 const INCIDENT_ZOOM_LEVEL = 12;

@@ -34,7 +34,9 @@ export default function TimelineItems({ details }) {
           <h4 className="cityState">
             {details.city}, {details.state}
           </h4>
+          <br />
           <h3>{details.title}</h3>
+          <br />
           {isInfoVisible ? (
             <div>
               <h5>{details.force_rank}</h5>
