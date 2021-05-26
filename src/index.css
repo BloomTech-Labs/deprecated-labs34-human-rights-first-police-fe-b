@@ -1212,6 +1212,11 @@ root:hover {
   margin: 1rem auto 0;
 }
 
+.copyright-p {
+  font-style: italic;
+  opacity: 0.9;
+}
+
 .footer-container .override {
   background-color: var(--blue);
 }
@@ -1267,7 +1272,7 @@ root:hover {
 .graph-legend-wrap {
   margin-bottom: 6%;
   padding: 20px;
-  border: 1px solid rgba(255, 99, 132, 0.4);
+  border: 1px solid rgba(188, 84, 30, 0.4);
 }
 
 .graph-disclaimer {
