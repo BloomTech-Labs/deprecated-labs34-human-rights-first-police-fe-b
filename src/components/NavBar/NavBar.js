@@ -32,6 +32,17 @@ const NavBar = () => {
         <NavLink onClick={handleClick} className="nav-link" exact to="/">
           Home
         </NavLink>
+        {localStorage.getItem('okta-token-storage') ? (
+          <>
+            <NavLink
+              onClick={handleClick}
+              className="nav-link"
+              to="/admin-dashboard"
+            >
+              Admin
+            </NavLink>
+          </>
+        ) : null}
         <NavLink onClick={handleClick} className="nav-link" to="/incidents">
           Incidents
         </NavLink>
@@ -45,13 +56,6 @@ const NavBar = () => {
           <>
             <NavLink onClick={logout} className="nav-link" exact to="/">
               Logout
-            </NavLink>
-            <NavLink
-              onClick={handleClick}
-              className="nav-link"
-              to="/admin-dashboard"
-            >
-              Admin
             </NavLink>
           </>
         ) : null}
