@@ -34,7 +34,7 @@ const Footer = () => {
                 </Menu.Item>
               </Menu>
 
-              <p>Human Rights First &copy;2021</p>
+              <p className="copyright-p">Human Rights First &copy;2021</p>
             </div>
           </Layout>
         </nav>
