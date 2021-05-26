@@ -46,7 +46,7 @@ const LineGraph = ({ data, months }) => {
                 data: lineData,
                 borderColor: '#003767',
                 backgroundColor: '#ededed',
-                pointBackgroundColor: '#e63946',
+                pointBackgroundColor: 'rgb(188, 84, 30)',
                 pointBorderColor: '#95363d',
               },
             ],

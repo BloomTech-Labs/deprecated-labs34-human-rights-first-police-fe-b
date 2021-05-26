@@ -23,12 +23,12 @@ const Horizontalbar = () => {
     ],
     datasets: [
       {
-        label: 'Number of Incidents',
-        backgroundColor: 'rgba(255,99,132,0.2)',
-        borderColor: 'rgba(255,99,132,1)',
+        label: 'Recorded Incidents by Type',
+        backgroundColor: 'rgba(188, 84, 30,0.2)',
+        borderColor: 'rgba(188, 84, 30,1)',
         borderWidth: 1,
-        hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-        hoverBorderColor: 'rgba(255,99,132,1)',
+        hoverBackgroundColor: 'rgba(188, 84, 30,0.4)',
+        hoverBorderColor: 'rgba(188, 84, 30,1)',
         data: [emptyHand, bluntForce, chemicalElectric, lethalForce],
       },
     ],
